@@ -8,3 +8,5 @@ bioRxiv, doi: https://www.biorxiv.org/content/10.1101/2022.10.12.511909v1
 
 To run the code:<br>
 `$ python setup.py build_ext --inplace`
+<br>
+`$ python main.py`

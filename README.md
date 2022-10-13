@@ -1,4 +1,4 @@
-# Cython code for publication simulations
+# Cython Code for MT1-MMP Paper
 
 This repository contains Cython and Python code for simulations in the following paper:
 

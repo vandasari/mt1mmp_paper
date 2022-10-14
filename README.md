@@ -9,9 +9,13 @@ bioRxiv (2022), doi: https://www.biorxiv.org/content/10.1101/2022.10.12.511909
 Place all files in one directory. 
 
 To compile the code:<br>
-`$ python setup.py build_ext --inplace`
+```python
+$ python setup.py build_ext --inplace
+```
 
 To run:<br>
-`$ python main.py`
+```python
+$ python main.py 
+```
 
 CPM parameter values can be modified, in the `main.py` file.  

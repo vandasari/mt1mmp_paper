@@ -979,7 +979,7 @@ def cpm(list pottsElements, list cellArr, list contactEnergy, list camElements, 
                 '''
                 The empty lattice sites that form the medium have a zero activity
                 value, while sites that are freshly incorporated by a cell get
-                the maximum activity value (MaxAct)
+                the maximum activity value (membranemt1)
                 '''
                 if exp(-deltaH / T) * RAND_MAX > rand():
                     if idxs == 0: #-- If the source pixel is medium --#
@@ -997,7 +997,7 @@ def cpm(list pottsElements, list cellArr, list contactEnergy, list camElements, 
                     
             if i == noLattice:
 
-                ##--- Print center of mass position ---##
+                #-- Uncomment to print the center of mass --#
                 # pos = ndimage.measurements.center_of_mass(grid)
                 # posfile.write("%s %s\n" % (j, str(pos)))
 
@@ -1031,7 +1031,7 @@ def cpm(list pottsElements, list cellArr, list contactEnergy, list camElements, 
                 
                 ax.set_axis_off()
                 
-                ##--- To show colorbar of MT1-MMP --##
+                ##--- Uncomment to show the colorbar of MT1-MMP --##
                 # divider = make_axes_locatable(ax)
                 # cax = divider.append_axes("right", size="5%", pad=0.05)
                 # plt.colorbar(ima, cax=cax)
@@ -1085,7 +1085,7 @@ def cpm(list pottsElements, list cellArr, list contactEnergy, list camElements, 
         
 
              
-    #-- Uncomment these for displaying images --#
+    #-- For displaying images on the run --#
     plt.show(block=False) 
     plt.pause(0.01) 
     plt.close()
@@ -1096,7 +1096,8 @@ def cpm(list pottsElements, list cellArr, list contactEnergy, list camElements, 
     stop = time.time()
 
     print('Simulation finished, t = %.2f sec' % (stop-start))
-
+ 
+    #-- Uncomment to print the center of mass --#
     # posfile.close()
     
 

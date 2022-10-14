@@ -4,7 +4,7 @@ This repository contains Cython and Python code for simulations in the following
 
 Vivi Andasari and Muhammad Zaman<br>
 Multiscale Modeling of MT1-MMP-Mediated Cell Migration: Destabilization of Cell-Matrix Adhesion<br>
-bioRxiv, doi: https://www.biorxiv.org/content/10.1101/2022.10.12.511909v1
+bioRxiv, doi: https://www.biorxiv.org/content/10.1101/2022.10.12.511909v2
 
 To run the code:<br>
 `$ python setup.py build_ext --inplace`

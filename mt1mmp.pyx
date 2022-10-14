@@ -7,7 +7,7 @@ import time, copy
 from libc.stdlib cimport srand, rand, RAND_MAX
 from libc.math cimport sqrt, exp, log, fmin, M_PI
 
-# from scipy import ndimage
+# from scipy import ndimage #-- Uncomment to print the center of mass --#
 import os
 
 import matplotlib.pyplot as plt

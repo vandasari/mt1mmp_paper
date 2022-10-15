@@ -1031,13 +1031,12 @@ def cpm(list pottsElements, list cellArr, list contactEnergy, list camElements, 
                     # ax.matshow(act, interpolation='nearest', cmap='terrain', origin='lower', alpha=0.5, vmin=0, vmax=20)
                     # ax.matshow(act, interpolation='nearest', cmap='gist_stern', origin='lower', alpha=0.5, vmin=act.min(), vmax=act.max())
                     
-                    ax.set_axis_off()
-
                     #########################################
 
                 else:
                     ax.matshow(grid, cmap='Blues', interpolation='none', origin='lower', vmin=0.0, vmax=grid.max())
-                    ax.set_axis_off()
+                    
+                ax.set_axis_off()
 
 
                 fig.suptitle(f'MCS = {j}')

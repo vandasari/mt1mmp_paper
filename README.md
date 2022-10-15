@@ -30,7 +30,7 @@ The `main.py` file contains:
 
 ## Citation
 
-To cite: <br>
+To cite the code: <br>
 
 Vivi Andasari and Muhammad Zaman<br>
 Multiscale Modeling of MT1-MMP-Mediated Cell Migration: Destabilization of Cell-Matrix Adhesion<br>

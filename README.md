@@ -10,7 +10,9 @@ This repository contains Cython code to simulate individual cell migration drive
 
 ## Get Started
 
-Place all files in one directory. 
+Each folder has files (`mt1mmp.pyx`, `setup.py`, and `main.py`) for Figures 2 and 3 in the paper.
+
+Go to each directory. 
 
 To compile the code:<br>
 ```python
@@ -22,8 +24,9 @@ To run:<br>
 $ python main.py 
 ```
 
-CPM parameter values can be modified, in the `main.py` file.  
-
+The `main.py` file contains:
+* CPM parameter values
+* Options to display and save images
 
 ## Citation
 

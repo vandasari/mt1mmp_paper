@@ -1,6 +1,9 @@
 # The Cellular Potts Model using Cython
 
 
+![](https://github.com/vandasari/mt1mmp_paper/blob/main/Movie3_Figure3.gif)
+
+
 ## Description
 
 This repository contains Cython code to simulate individual cell migration driven by the dynamics of MT1-MMP using the Cellular Potts Model, for the paper below.

@@ -1102,27 +1102,6 @@ def cpm(list pottsElements, list cellArr, list contactEnergy, list camElements, 
                 printImages(j)
         elif saveImages == "No":
             pass
-
-        ###===== Save images every 1 MCS =====###
-        # fig.savefig('Results/Simulation/mcs_' + str(j) + '.png', dpi=200, bbox_inches='tight')
-        
-        ###===== Save images every j MCS =====###
-        # if j % 5 == 0: #-- Every 5 MCS --#
-        #     fig.savefig(joined_image + str(j) + '.png', dpi=200, bbox_inches='tight')
-
-        ###===== Save images every 20 MCS when MCS <= 1000 and every 50 MCS when MCS > 1000 =====###
-        # if j <= 1000:
-        #     if j%20 == 0:
-        #         fig.savefig('Results/Simulation/mcs_' + str(j) + '.png', dpi=200, bbox_inches='tight')
-        #         # fig.savefig('LineColors/Spectrum1/mcs_' + str(j) + '.png', dpi=200, format="PNG", bbox_inches='tight', pad_inches=0.4)
-        # else:
-        #     if j%50 == 0:
-        #         fig.savefig('Results/Simulation/mcs_' + str(j) + '.png', dpi=200, bbox_inches='tight')
-
-        ###===== Save grid data =====###
-        # if j==mcs:
-            # np.savetxt("Result5_3CellTypes/data.txt", grid, fmt='%5d', delimiter=',')
-
             
     # if showImages == "Yes":
     #     plt.show(block=False)
